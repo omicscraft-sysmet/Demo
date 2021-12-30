@@ -1,0 +1,296 @@
+[
+  {
+    "operators": {
+      "3": {
+        "properties": {
+          "title": "Univariate Statistical Methods",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 100,
+        "top": 60
+      },
+      "4": {
+        "properties": {
+          "title": "Multivariate Statistical Methods",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 60
+      },
+      "5": {
+        "properties": {
+          "title": "Machine Learning Methods",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 540,
+        "top": 60
+      },
+      "6": {
+        "properties": {
+          "title": "Network-Based Differential Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 200
+      },
+      "7": {
+        "properties": {
+          "title": "Univariate Statistical Methods",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 100,
+        "top": 200
+      },
+      "8": {
+        "properties": {
+          "title": "Network-Based Integrative Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 540,
+        "top": 200
+      },
+      "9": {
+        "properties": {
+          "title": "Univariate Statistical Methods",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 100,
+        "top": 340
+      },
+      "10": {
+        "properties": {
+          "title": "Hierarchical Integrative Model",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 340
+      }
+    },
+    "links": {
+      "2": {
+        "fromOperator": 3,
+        "fromConnector": "output_0",
+        "toOperator": 4,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "fromSubConnector": 0,
+        "toOperator": 5,
+        "toConnector": "input_0",
+        "toSubConnector": 0
+      },
+      "4": {
+        "fromOperator": 7,
+        "fromConnector": "output_0",
+        "fromSubConnector": 0,
+        "toOperator": 6,
+        "toConnector": "input_0",
+        "toSubConnector": 0
+      },
+      "5": {
+        "fromOperator": 7,
+        "fromConnector": "output_0",
+        "toOperator": 8,
+        "toConnector": "input_0"
+      },
+      "6": {
+        "fromOperator": 9,
+        "fromConnector": "output_0",
+        "toOperator": 10,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": {},
+    "2": {},
+    "3": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "4": {},
+    "5": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "6": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "7": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "8": {},
+    "9": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "10": {}
+  },
+  {
+    "0": [
+      "Differential Analysis",
+      -2,
+      0,
+      []
+    ],
+    "1": [
+      "Omics Integration",
+      -2,
+      0,
+      []
+    ],
+    "2": [
+      "Omics Integration",
+      -2,
+      0,
+      []
+    ],
+    "3": [
+      "Univariate Statistical Methods",
+      -2,
+      3,
+      []
+    ],
+    "4": [
+      "Multivariate Statistical Methods",
+      -2,
+      3,
+      []
+    ],
+    "5": [
+      "Machine Learning Methods",
+      -2,
+      5,
+      []
+    ],
+    "6": [
+      "Network-Based Differential Analysis",
+      -2,
+      6,
+      []
+    ],
+    "7": [
+      "Univariate Statistical Methods",
+      -2,
+      7,
+      []
+    ],
+    "8": [
+      "Network-Based Integrative Analysis",
+      -2,
+      7,
+      []
+    ],
+    "9": [
+      "Univariate Statistical Methods",
+      -2,
+      9,
+      []
+    ],
+    "10": [
+      "Hierarchical Integrative Model",
+      -2,
+      9,
+      []
+    ]
+  }
+]
