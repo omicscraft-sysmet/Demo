@@ -1,0 +1,336 @@
+[
+  {
+    "operators": {
+      "0": {
+        "properties": {
+          "title": "Data Upload",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 20,
+        "top": 120
+      },
+      "1": {
+        "properties": {
+          "title": "Peak Detection/Alignment",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 200,
+        "top": 120
+      },
+      "2": {
+        "properties": {
+          "title": "Adduct/Isotope Recognition",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 380,
+        "top": 120
+      },
+      "3": {
+        "properties": {
+          "title": "Mass-Based Search",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 560,
+        "top": 120
+      },
+      "4": {
+        "properties": {
+          "title": "Data Upload",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 20,
+        "top": 460
+      },
+      "5": {
+        "properties": {
+          "title": "Univariate Statistical Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 260
+      },
+      "6": {
+        "properties": {
+          "title": "Multivariate Regression Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 360
+      },
+      "7": {
+        "properties": {
+          "title": "Hierarchical Integrative Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 460
+      },
+      "8": {
+        "properties": {
+          "title": "Network-Based Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 560
+      },
+      "9": {
+        "properties": {
+          "title": "Machine Learning",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 660
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 1,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      },
+      "2": {
+        "fromOperator": 2,
+        "fromConnector": "output_0",
+        "toOperator": 3,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 5,
+        "toConnector": "input_0"
+      },
+      "4": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 6,
+        "toConnector": "input_0"
+      },
+      "5": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 7,
+        "toConnector": "input_0"
+      },
+      "6": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 8,
+        "toConnector": "input_0"
+      },
+      "7": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 9,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "5": {},
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": {}
+  },
+  {
+    "0": [
+      "Data Upload",
+      -2,
+      [
+        "Data Upload"
+      ],
+      []
+    ],
+    "1": [
+      "Peak Detection/Alignment",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment"
+      ],
+      []
+    ],
+    "2": [
+      "Adduct/Isotope Recognition",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition"
+      ],
+      []
+    ],
+    "3": [
+      "Mass-Based Search",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition",
+        "Mass-Based Search"
+      ],
+      []
+    ],
+    "4": [
+      "Data Upload",
+      -2,
+      [
+        "Data Upload"
+      ],
+      []
+    ],
+    "5": [
+      "Univariate Statistical Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Univariate Statistical Analysis"
+      ],
+      []
+    ],
+    "6": [
+      "Multivariate Regression Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Multivariate Regression Analysis"
+      ],
+      []
+    ],
+    "7": [
+      "Hierarchical Integrative Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Hierarchical Integrative Analysis"
+      ],
+      []
+    ],
+    "8": [
+      "Network-Based Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Network-Based Analysis"
+      ],
+      []
+    ],
+    "9": [
+      "Machine Learning",
+      -2,
+      [
+        "Data Upload",
+        "Machine Learning"
+      ],
+      []
+    ]
+  }
+]

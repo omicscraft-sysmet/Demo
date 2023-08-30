@@ -1,0 +1,272 @@
+[
+  {
+    "operators": {
+      "0": {
+        "properties": {
+          "title": "Data Upload",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 20,
+        "top": 80
+      },
+      "1": {
+        "properties": {
+          "title": "Peak Detection/Alignment",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 180,
+        "top": 80
+      },
+      "2": {
+        "properties": {
+          "title": "Adduct/Isotope Recognition",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 340,
+        "top": 80
+      },
+      "3": {
+        "properties": {
+          "title": "Mass-Based Search",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 500,
+        "top": 80
+      },
+      "4": {
+        "properties": {
+          "title": "IF-THEN Rule",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 660,
+        "top": 80
+      },
+      "5": {
+        "properties": {
+          "title": "Isotopic Pattern Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 820,
+        "top": 80
+      },
+      "6": {
+        "properties": {
+          "title": "Network-Based Annotation",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 980,
+        "top": 80
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 1,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      },
+      "2": {
+        "fromOperator": 2,
+        "fromConnector": "output_0",
+        "toOperator": 3,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 3,
+        "fromConnector": "output_0",
+        "toOperator": 4,
+        "toConnector": "input_0"
+      },
+      "4": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 5,
+        "toConnector": "input_0"
+      },
+      "5": {
+        "fromOperator": 5,
+        "fromConnector": "output_0",
+        "toOperator": 6,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": [
+      "0",
+      "1",
+      "2"
+    ],
+    "5": {},
+    "6": {
+      "NetGraph": false
+    }
+  },
+  {
+    "0": [
+      "Data Upload",
+      -2,
+      [
+        "Data Upload"
+      ],
+      []
+    ],
+    "1": [
+      "Peak Detection/Alignment",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment"
+      ],
+      []
+    ],
+    "2": [
+      "Adduct/Isotope Recognition",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition"
+      ],
+      []
+    ],
+    "3": [
+      "Mass-Based Search",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition",
+        "Mass-Based Search"
+      ],
+      []
+    ],
+    "4": [
+      "IF-THEN Rule",
+      -1,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition",
+        "Mass-Based Search",
+        "IF-THEN Rule"
+      ],
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "5": [
+      "Isotopic Pattern Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition",
+        "Mass-Based Search",
+        "IF-THEN Rule",
+        "Isotopic Pattern Analysis"
+      ],
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "6": [
+      "Network-Based Annotation",
+      -1,
+      [
+        "Data Upload",
+        "Peak Detection/Alignment",
+        "Adduct/Isotope Recognition",
+        "Mass-Based Search",
+        "IF-THEN Rule",
+        "Isotopic Pattern Analysis",
+        "Network-Based Annotation"
+      ],
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  }
+]

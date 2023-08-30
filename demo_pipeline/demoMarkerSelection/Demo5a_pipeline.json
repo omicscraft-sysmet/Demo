@@ -1,0 +1,206 @@
+[
+  {
+    "operators": {
+      "0": {
+        "properties": {
+          "title": "Data Upload",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 40,
+        "top": 220
+      },
+      "1": {
+        "properties": {
+          "title": "Machine Learning",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 440
+      },
+      "2": {
+        "properties": {
+          "title": "Network-Based Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 320
+      },
+      "3": {
+        "properties": {
+          "title": "Hierarchical Integrative Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 220
+      },
+      "4": {
+        "properties": {
+          "title": "Multivariate Regression Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 120
+      },
+      "5": {
+        "properties": {
+          "title": "Univariate Statistical Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 320,
+        "top": 20
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      },
+      "2": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 3,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 4,
+        "toConnector": "input_0"
+      },
+      "4": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 5,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {},
+    "5": {}
+  },
+  {
+    "0": [
+      "Data Upload",
+      -2,
+      [
+        "Data Upload"
+      ],
+      []
+    ],
+    "1": [
+      "Machine Learning",
+      -2,
+      [
+        "Data Upload",
+        "Machine Learning"
+      ],
+      []
+    ],
+    "2": [
+      "Network-Based Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Network-Based Analysis"
+      ],
+      []
+    ],
+    "3": [
+      "Hierarchical Integrative Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Hierarchical Integrative Analysis"
+      ],
+      []
+    ],
+    "4": [
+      "Multivariate Regression Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Multivariate Regression Analysis"
+      ],
+      []
+    ],
+    "5": [
+      "Univariate Statistical Analysis",
+      -2,
+      [
+        "Data Upload",
+        "Univariate Statistical Analysis"
+      ],
+      []
+    ]
+  }
+]
